@@ -3,8 +3,8 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
- (filename . "c:/Users/kangj/Dropbox/org.kangjian.net/WorkNotes.org")
- (front-context-string . "**** TODO [#C] 在")
- (rear-context-string . "合规手册，盯着Daniel完成\n")
- (position . 167943))
+ (filename . "c:/Users/kangj/Dropbox/org.kangjian.net/ReferenceNotes.org")
+ (front-context-string . "**** 电影《霸王别姬》的上映")
+ (rear-context-string . "V10534B4I0.html\n")
+ (position . 213047))
 )

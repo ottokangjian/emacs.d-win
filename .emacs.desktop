@@ -1,0 +1,163 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sun Dec 13 15:09:50 2020
+;; Desktop file format version 208
+;; Emacs version 26.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24533 48702 349961 0) (desktop . "208") "kangj@LAPTOP-S4O3F80O" nil nil ((((minibuffer . t) (undecorated) (skip-taskbar) (font-backend uniscribe gdi) (font . "-outline-Courier New-normal-normal-normal-mono-16-*-*-*-c-*-iso10646-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#f7f1ff") (background-color . "#222222") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-focus-on-map) (no-accept-focus) (no-special-glyphs) (alpha) (menu-bar-lines . 1) (tool-bar-lines . 2) (height . 54) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 17) (scroll-bar-height . 0) (fullscreen) (z-group) (visibility . t) (display-type . color) (background-mode . dark) (cursor-color . "#f7f1ff") (environment) (frameset--id . "60FF-16ED-BFB3-4B7A") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top) (frameset--text-pixel-width . 1885) (width . 188) (left . 1913) (top . 1060)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 12) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 200) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 120) (min-pixel-height-safe . 18) (min-pixel-width-safe . 40)) hc (pixel-width . 1918) (pixel-height . 954) (total-width . 192) (total-height . 53) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 958) (pixel-height . 954) (total-width . 96) (total-height . 53) (normal-height . 1.0) (normal-width . 0.5) (buffer "WorkNotes.org" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 168442) (start . 1))) (leaf (last . t) (pixel-width . 960) (pixel-height . 954) (total-width . 96) (total-height . 53) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Org Agenda*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 19) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("c:/Users/kangj/Dropbox/org.kangjian.net/WorkNotes.org" "c:/Users/kangj/Dropbox/org.kangjian.net/ToDo.org" "c:/Users/kangj/Dropbox/org.kangjian.net/WorkNotes.org" "c:/Users/kangj/Dropbox/org.kangjian.net/ToDo.org" "c:/Users/kangj/Dropbox/org.kangjian.net/WorkNotes.org"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "c:/Users/kangj/Dropbox/org.kangjian.net/WorkNotes.org"
+  "WorkNotes.org"
+  'org-mode
+  '(visual-line-mode global-auto-revert-mode)
+  168442
+  '(168442 nil)
+  nil
+  nil
+  '((buffer-display-time 24533 48695 15480 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (168442 168442 168442 168442 168442 168442 168442 168442 168442 168442 168442 168442 168442))))
+
+(desktop-create-buffer 208
+  "c:/Users/kangj/Dropbox/org.kangjian.net/ToDo.org"
+  "ToDo.org"
+  'org-mode
+  '(visual-line-mode global-auto-revert-mode)
+  9042
+  '(9042 nil)
+  nil
+  nil
+  '((buffer-display-time 24533 48690 616113 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (4793 4793 9042 9042))))
+
+(desktop-create-buffer 208
+  "c:/Users/kangj/Dropbox/org.kangjian.net/@AAA.org"
+  "@AAA.org"
+  'org-mode
+  '(visual-line-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24533 48500 483773 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/Users/kangj/Dropbox/org.kangjian.net/Diary.org"
+  "Diary.org"
+  'org-mode
+  '(visual-line-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24533 48500 595747 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/Users/kangj/Dropbox/org.kangjian.net/Emacs-Learning.org"
+  "Emacs-Learning.org"
+  'org-mode
+  '(visual-line-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24533 48500 672574 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/Users/kangj/Dropbox/org.kangjian.net/FleetingNotes.org"
+  "FleetingNotes.org"
+  'org-mode
+  '(visual-line-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24533 48500 754697 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/Users/kangj/Dropbox/org.kangjian.net/List.org"
+  "List.org"
+  'org-mode
+  '(visual-line-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24533 48500 838555 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/Users/kangj/Dropbox/org.kangjian.net/ReferenceNotes.org"
+  "ReferenceNotes.org"
+  'org-mode
+  '(visual-line-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24533 48501 870427 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/Users/kangj/Dropbox/org.kangjian.net/SOP.org"
+  "SOP.org"
+  'org-mode
+  '(visual-line-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24533 48501 947752 0) (buffer-file-coding-system . utf-8-dos) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/Users/kangj/Dropbox/org.kangjian.net/TradingLog.org"
+  "TradingLog.org"
+  'org-mode
+  '(visual-line-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24533 48502 36138 0) (buffer-file-coding-system . chinese-gbk-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/Users/kangj/Dropbox/org.kangjian.net/VSCodeKeyBinds.org"
+  "VSCodeKeyBinds.org"
+  'org-mode
+  '(visual-line-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24533 48502 113603 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/Users/kangj/Dropbox/org.kangjian.net/init.org"
+  "init.org"
+  'org-mode
+  '(visual-line-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24533 48690 616076 0) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
