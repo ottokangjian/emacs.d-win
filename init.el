@@ -128,7 +128,7 @@
               "* %?\nEntered on %T\n  %i\n"))
 (add-to-list 'org-capture-templates
              '("r" "RefenenceNotes" entry (file+datetree "C:/Users/kangj/Dropbox/org.kangjian.net/ReferenceNotes.org")
-               ""* %^{heading} \nEntered on %T\n %?\n"))
+               "* %^{heading} \nEntered on %T\n %?\n"))
 (add-to-list 'org-capture-templates
              '("l" "TradingLog" entry (file+datetree "C:/Users/kangj/Dropbox/org.kangjian.net/TradingLog.org")
                "%?\nEntered on %U\n"))
