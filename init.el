@@ -122,7 +122,7 @@
 (setq org-capture-templates nil)
 (add-to-list 'org-capture-templates
              '("c" "Contacts" entry (file "C:/Users/User/Dropbox/org.kangjian.net/contacts.org")
-               "* %^{姓名} %^{机构}p %^{手机}p %^{邮箱}p %^{籍贯}p %^{学校}p\n%T\n  %?" :empty-lines 1))
+               "* %^{姓名} %^{机构}p %^{职业}p %^{手机}p %^{邮箱}p %^{籍贯}p %^{学校}p %^{昵称}p %^{备注}p\n  %U\n"))
 (add-to-list 'org-capture-templates
              '("d" "Diary" entry (file+datetree "C:/Users/User/Dropbox/org.kangjian.net/Diary.org")
                "* %U \n %?\n"))
