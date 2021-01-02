@@ -11,8 +11,8 @@
 (unicode-fonts-setup)
 
 ;; 【设置默认目录】
-(setq default-directory "C:/Users/User/Dropbox/org.kangjian.net/" )
-(setq command-line-default-directory "C:/Users/User/Dropbox/org.kangjian.net/" )
+(setq default-directory "C:/Users/kangj/Dropbox/org.kangjian.net/" )
+(setq command-line-default-directory "C:/Users/kangj/Dropbox/org.kangjian.net/" )
 ;; 【设置字体】
 (set-default-font"-*-Courier New-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1")
 ;; 【自动加载外部修改过的文件】
@@ -27,11 +27,11 @@
 (require 'org)
 (setq org-src-fontify-natively t)
 ;; 【设置默认 Org Agenda 文件目录】
-(setq org-agenda-files '("C:/Users/User/Dropbox/org.kangjian.net"))
+(setq org-agenda-files '("C:/Users/kangj/Dropbox/org.kangjian.net"))
 ;; 【设置 org-agenda 打开快捷键】
 (global-set-key (kbd "C-c a") 'org-agenda)
 ;; 【设置Auto-Save】
-(add-to-list 'load-path "C:/Users/User/AppData/Roaming/.emacs.d/lisp") ; add auto-save to your load-path
+(add-to-list 'load-path "C:/Users/kangj/AppData/Roaming/.emacs.d/lisp") ; add auto-save to your load-path
 (require 'auto-save)
 (auto-save-enable)
 
@@ -121,32 +121,33 @@
 
 (setq org-capture-templates nil)
 (add-to-list 'org-capture-templates
-             '("c" "Contacts" entry (file "C:/Users/User/Dropbox/org.kangjian.net/contacts.org")
+             '("c" "Contacts" entry (file "C:/Users/kangj/Dropbox/org.kangjian.net/contacts.org")
                "* %^{姓名} %^{机构}p %^{职业}p %^{手机}p %^{邮箱}p %^{籍贯}p %^{学校}p %^{昵称}p %^{备注}p\n  %U\n"))
 (add-to-list 'org-capture-templates
-             '("d" "Diary" entry (file+datetree "C:/Users/User/Dropbox/org.kangjian.net/Diary.org")
+             '("d" "Diary" entry (file+datetree "C:/Users/kangj/Dropbox/org.kangjian.net/Diary.org")
                "* %U \n %?\n"))
 (add-to-list 'org-capture-templates
-             '("f" "FleetingNotes" entry (file+datetree "C:/Users/User/Dropbox/org.kangjian.net/FleetingNotes.org")
+             '("f" "FleetingNotes" entry (file+datetree "C:/Users/kangj/Dropbox/org.kangjian.net/FleetingNotes.org")
               "* %?\nEntered on %T\n  %i\n"))
 (add-to-list 'org-capture-templates
-             '("l" "TradingLog" entry (file+datetree "C:/Users/User/Dropbox/org.kangjian.net/TradingLog.org")
+             '("l" "TradingLog" entry (file+datetree "C:/Users/kangj/Dropbox/org.kangjian.net/TradingLog.org")
                "%?\nEntered on %U\n"))
 (add-to-list 'org-capture-templates
-             '("r" "RefenenceNotes" entry (file+datetree "C:/Users/User/Dropbox/org.kangjian.net/ReferenceNotes.org")
+             '("r" "RefenenceNotes" entry (file+datetree "C:/Users/kangj/Dropbox/org.kangjian.net/ReferenceNotes.org")
                "* %^{heading} \nEntered on %T\n %?\n"))
 (add-to-list 'org-capture-templates
-             '("t" "ToDo" entry (file+headline "C:/Users/User/Dropbox/org.kangjian.net/ToDo.org" "@Inbox")
+             '("t" "ToDo" entry (file+headline "C:/Users/kangj/Dropbox/org.kangjian.net/ToDo.org" "@Inbox")
                "* %?\nEntered on %U\n"))
 (add-to-list 'org-capture-templates
-             '("w" "WorkNotes" entry (file+datetree+prompt "C:/Users/User/Dropbox/org.kangjian.net/WorkNotes.org")
+             '("w" "WorkNotes" entry (file+datetree+prompt "C:/Users/kangj/Dropbox/org.kangjian.net/WorkNotes.org")
                "* %?\nEntered on %U\n"))
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; 【deft【 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;(require 'deft)
-;;(setq deft-directory "C:/Users/User/Documents/GitHub/card.kangjian.net/source/_posts")
+;;(setq deft-directory "C:/Users/kangj/Documents/GitHub/card.kangjian.net/source/_posts")
 ;;(setq deft-extensions '("md"))
 ;;(setq deft-default-extension "md")
 ;;(setq deft-text-mode 'org-mode)
@@ -179,10 +180,10 @@
 (global-visual-line-mode 1)
 
 ;; 【TOC-org】
-;; (if (require 'toc-org nil t)
-;;     (add-hook 'org-mode-hook 'toc-org-mode)
+(if (require 'toc-org nil t)
+    (add-hook 'org-mode-hook 'toc-org-mode)
 
 ;; 【enable in markdown, too】
-;;    (add-hook 'markdown-mode-hook 'toc-org-mode)
-;;    (define-key markdown-mode-map (kbd "\C-c\C-o") 'toc-org-markdown-follow-thing-at-point)
-;;   (warn "toc-org not found"))
+    (add-hook 'markdown-mode-hook 'toc-org-mode)
+    (define-key markdown-mode-map (kbd "\C-c\C-o") 'toc-org-markdown-follow-thing-at-point)
+  (warn "toc-org not found"))
