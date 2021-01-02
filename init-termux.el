@@ -11,8 +11,8 @@
 (unicode-fonts-setup) 
 
  ;; 【设置默认目录】
-(setq default-directory "/data/data/com.termux/files/home/storage/downloads/org.kangjian.net/" )
-(setq command-line-default-directory "/data/data/com.termux/files/home/storage/downloads/org.kangjian.net/" )
+(setq default-directory "/data/data/com.termux/files/home/storage/downloads/org/" )
+(setq command-line-default-directory "/data/data/com.termux/files/home/storage/downloads/org/" )
 ;; 【设置字体】
 (set-default-font"-*-Courier New-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1")
 ;; 【自动加载外部修改过的文件】
@@ -27,7 +27,7 @@
 (require 'org)
 (setq org-src-fontify-natively t)
 ;; 【设置默认 Org Agenda 文件目录】
-(setq org-agenda-files '("/data/data/com.termux/files/home/storage/downloads/org.kangjian.net"))
+(setq org-agenda-files '("/data/data/com.termux/files/home/storage/downloads/org"))
 ;; 【设置 org-agenda 打开快捷键】
 (global-set-key (kbd "C-c a") 'org-agenda)
 ;; 【设置Auto-Save】
@@ -121,25 +121,25 @@
 
 (setq org-capture-templates nil)
 (add-to-list 'org-capture-templates
-             '("c" "Contacts" entry (file "/data/data/com.termux/files/home/storage/downloads/org.kangjian.net/contacts.org")
+             '("c" "Contacts" entry (file "/data/data/com.termux/files/home/storage/downloads/org/contacts.org")
                "* %^{姓名} %^{机构}p %^{职业}p %^{手机}p %^{邮箱}p %^{籍贯}p %^{学校}p %^{昵称}p %^{备注}p\n  %U\n"))
 (add-to-list 'org-capture-templates
-             '("d" "Diary" entry (file+datetree "/data/data/com.termux/files/home/storage/downloads/org.kangjian.net/Diary.org")
+             '("d" "Diary" entry (file+datetree "/data/data/com.termux/files/home/storage/downloads/org/Diary.org")
                "* %U \n %?\n"))
 (add-to-list 'org-capture-templates
-             '("f" "FleetingNotes" entry (file+datetree "/data/data/com.termux/files/home/storage/downloads/org.kangjian.net/FleetingNotes.org")
+             '("f" "FleetingNotes" entry (file+datetree "/data/data/com.termux/files/home/storage/downloads/org/FleetingNotes.org")
               "* %?\nEntered on %T\n  %i\n"))
 (add-to-list 'org-capture-templates
-             '("l" "TradingLog" entry (file+datetree "/data/data/com.termux/files/home/storage/downloads/org.kangjian.net/TradingLog.org")
+             '("l" "TradingLog" entry (file+datetree "/data/data/com.termux/files/home/storage/downloads/org/TradingLog.org")
                "%?\nEntered on %U\n"))
 (add-to-list 'org-capture-templates
-             '("r" "RefenenceNotes" entry (file+datetree "/data/data/com.termux/files/home/storage/downloads/org.kangjian.net/ReferenceNotes.org")
+             '("r" "RefenenceNotes" entry (file+datetree "/data/data/com.termux/files/home/storage/downloads/org/ReferenceNotes.org")
                "* %^{heading} \nEntered on %T\n %?\n"))
 (add-to-list 'org-capture-templates
-             '("t" "ToDo" entry (file+headline "/data/data/com.termux/files/home/storage/downloads/org.kangjian.net/ToDo.org" "@Inbox")
+             '("t" "ToDo" entry (file+headline "/data/data/com.termux/files/home/storage/downloads/org/ToDo.org" "@Inbox")
                "* %?\nEntered on %U\n"))
 (add-to-list 'org-capture-templates
-             '("w" "WorkNotes" entry (file+datetree+prompt "/data/data/com.termux/files/home/storage/downloads/org.kangjian.net/WorkNotes.org")
+             '("w" "WorkNotes" entry (file+datetree+prompt "/data/data/com.termux/files/home/storage/downloads/org/WorkNotes.org")
                "* %?\nEntered on %U\n"))
 
 
