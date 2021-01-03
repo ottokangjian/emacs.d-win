@@ -78,7 +78,7 @@
  '(objed-cursor-color "#fc618d")
  '(package-selected-packages
    (quote
-    (minimal-theme doom-themes toc-org htmlize org-babel-eval-in-repl markdown-mode org-bullets deft unicode-fonts monokai-theme monokai-pro-theme monokai-alt-theme)))
+    (org2blog minimal-theme doom-themes toc-org htmlize org-babel-eval-in-repl markdown-mode org-bullets deft unicode-fonts monokai-theme monokai-pro-theme monokai-alt-theme)))
  '(pdf-view-midnight-colors (cons "#f7f1ff" "#222222"))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
@@ -187,3 +187,9 @@
     (add-hook 'markdown-mode-hook 'toc-org-mode)
     (define-key markdown-mode-map (kbd "\C-c\C-o") 'toc-org-markdown-follow-thing-at-point)
   (warn "toc-org not found"))
+
+;;【org2blog】
+ (setq org2blog/wp-blog-alist       
+       '(("kangjian.net"          
+             :url "http://kangjian.net/blog/xmlrpc.php"          
+             :username "admin")))
