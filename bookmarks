@@ -4,7 +4,7 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
  (filename . "c:/Users/kangj/Dropbox/org.kangjian.net/WorkNotes.org")
- (front-context-string . "****  Gym Floor\n")
- (rear-context-string . " 2021-01-03 星期日\n")
- (position . 218368))
+ (front-context-string . "**** TODO [#B] 研")
+ (rear-context-string . "01-02 周六 08:04]\n")
+ (position . 219119))
 )
