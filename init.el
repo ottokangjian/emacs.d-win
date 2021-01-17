@@ -78,7 +78,7 @@
  '(objed-cursor-color "#fc618d")
  '(package-selected-packages
    (quote
-    (org2blog minimal-theme doom-themes toc-org htmlize org-babel-eval-in-repl markdown-mode org-bullets deft unicode-fonts monokai-theme monokai-pro-theme monokai-alt-theme)))
+    (yasnippet-snippets yasnippet org2blog minimal-theme doom-themes toc-org htmlize org-babel-eval-in-repl markdown-mode org-bullets deft unicode-fonts monokai-theme monokai-pro-theme monokai-alt-theme)))
  '(pdf-view-midnight-colors (cons "#f7f1ff" "#222222"))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
@@ -146,19 +146,19 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; 【deft【 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;(require 'deft)
-;;(setq deft-directory "C:/Users/kangj/Documents/GitHub/card.kangjian.net/source/_posts")
-;;(setq deft-extensions '("md"))
-;;(setq deft-default-extension "md")
-;;(setq deft-text-mode 'org-mode)
-;;(setq deft-use-filename-as-title t)
-;;(setq deft-use-filter-string-for-filename t)
-;;(setq deft-auto-save-interval 0)
+(require 'deft)
+(setq deft-directory "C:/Users/kangj/Documents/GitHub/card.kangjian.net/source/_posts")
+(setq deft-recursive t) ;By default, Deft only searches for files in deft-directory but not in any subdirectories.
+(setq deft-extensions '("md"))
+(setq deft-extensions '("md" "org" "txt"))
+(setq deft-text-mode 'markdown-mode)
+(setq deft-recursive t)
+(setq deft-use-filename-as-title t)
+(setq deft-use-filter-string-for-filename t)
+(setq deft-auto-save-interval 0)
+(setq deft-file-naming-rules '((nospace . "-")))
 ;;key to launch deft
-;;(global-set-key (kbd "C-c d") 'deft)
-
-;;key to launch deft
-;;(global-set-key (kbd "C-c d") 'deft)
+(global-set-key (kbd "C-c d") 'deft)
 
 ;; 【org-bullets】
 (require 'org-bullets)
@@ -189,7 +189,15 @@
   (warn "toc-org not found"))
 
 ;;【org2blog】
- (setq org2blog/wp-blog-alist       
-       '(("kangjian.net"          
-             :url "http://kangjian.net/blog/xmlrpc.php"          
+ (setq org2blog/wp-blog-alist
+       '(("kangjian.net"
+             :url "http://kangjian.net/blog/xmlrpc.php"
              :username "admin")))
+;;
+;; yasnippet
+;;
+(use-package yasnippet
+:ensure t
+:config
+(yas-global-mode)
+(use-package yasnippet-snippets :ensure t))

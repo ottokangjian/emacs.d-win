@@ -1,0 +1,12 @@
+# key: yc
+# name: yaml-card
+# --
+---
+title: $1
+layout: post
+date: `(format-time-string "%Y-%m-%d %H:%M:%S" (current-time))`
+categories: Copy
+tags:
+  - #$2
+---
+$0
