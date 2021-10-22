@@ -78,12 +78,13 @@
  '(objed-cursor-color "#fc618d")
  '(package-selected-packages
    (quote
-    (yasnippet-snippets yasnippet org2blog minimal-theme doom-themes toc-org htmlize org-babel-eval-in-repl markdown-mode org-bullets deft unicode-fonts monokai-theme monokai-pro-theme monokai-alt-theme)))
+    (pyim yasnippet-snippets yasnippet org2blog minimal-theme doom-themes toc-org htmlize org-babel-eval-in-repl markdown-mode org-bullets deft unicode-fonts monokai-theme monokai-pro-theme monokai-alt-theme)))
  '(pdf-view-midnight-colors (cons "#f7f1ff" "#222222"))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
  '(rustic-ansi-faces
    ["#222222" "#fc618d" "#7bd88f" "#fce566" "#5ad4e6" "#5ad4e6" "#5ad4e6" "#f7f1ff"])
+ '(safe-local-variable-values (quote ((org-export-in-background . t))))
  '(vc-annotate-background "#222222")
  '(vc-annotate-color-map
    (list
